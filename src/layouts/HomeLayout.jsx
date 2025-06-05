@@ -5,6 +5,7 @@ import LatestNews from '../components/LatestNews';
 import Navbar from '../components/Navbar';
 import LeftAside from '../components/homelayout/LeftAside';
 import RightAside from '../components/homelayout/RightAside';
+import Footer from '../components/Footer';
 
 const HomeLayout = () => {
     return (
@@ -31,10 +32,7 @@ const HomeLayout = () => {
                 </aside>
             </main>
             <footer>
-                {/* <!-- copyright section --> */}
-                <div class="text-center mt-5 pt-5">
-                    <p>&copy; 2025 All Rights Reserved | Designed By <a class="hover:text-orange-700" href="https://github.com/Samiul2024">Samiul</a></p>
-                </div>
+                <Footer></Footer>
             </footer>
         </div>
     );
