@@ -30,6 +30,12 @@ const HomeLayout = () => {
                     <RightAside></RightAside>
                 </aside>
             </main>
+            <footer>
+                {/* <!-- copyright section --> */}
+                <div class="text-center mt-5 pt-5">
+                    <p>&copy; 2025 All Rights Reserved | Designed By <a class="hover:text-orange-700" href="https://github.com/Samiul2024">Samiul</a></p>
+                </div>
+            </footer>
         </div>
     );
 };
